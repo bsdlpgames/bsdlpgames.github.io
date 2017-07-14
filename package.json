@@ -1,0 +1,34 @@
+{
+  "name": "bsdlp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "eslint-plugin-import": "^2.7.0",
+    "npm-css": "^0.2.3",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.10",
+    "tachyons": "^4.7.4",
+    "tachyons-cli": "^1.0.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "css": "tachyons src/css/app.css > src/index.css --minify",
+    "prestart": "npm run css",
+    "prebuild": "npm run css"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "eslint-config-ianvs": "0.0.6",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-flowtype": "^2.35.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.1.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "style-loader": "^0.18.2",
+    "tachyons-font-family": "^4.3.3"
+  }
+}
