@@ -2,7 +2,7 @@
   "name": "bsdlp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "bsdlp.com",
+  "homepage": "https://bsdlp.com",
   "dependencies": {
     "eslint-plugin-import": "^2.7.0",
     "gh-pages": "^1.0.0",
@@ -21,7 +21,7 @@
     "css": "tachyons src/css/app.css > src/index.css --minify",
     "prestart": "npm run css",
     "prebuild": "npm run css",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo 'bsdlp.com' > build/CNAME",
     "deploy": "gh-pages -d build --branch master"
   },
   "devDependencies": {
