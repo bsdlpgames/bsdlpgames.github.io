@@ -22,7 +22,7 @@
     "prestart": "npm run css",
     "prebuild": "npm run css",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build --branch master"
   },
   "devDependencies": {
     "css-loader": "^0.28.4",
