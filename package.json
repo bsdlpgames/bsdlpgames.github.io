@@ -2,6 +2,7 @@
   "name": "bsdlp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "bsdlp.com",
   "dependencies": {
     "eslint-plugin-import": "^2.7.0",
     "npm-css": "^0.2.3",
