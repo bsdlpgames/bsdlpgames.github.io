@@ -5,6 +5,7 @@
   "homepage": "bsdlp.com",
   "dependencies": {
     "eslint-plugin-import": "^2.7.0",
+    "gh-pages": "^1.0.0",
     "npm-css": "^0.2.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
@@ -19,7 +20,9 @@
     "eject": "react-scripts eject",
     "css": "tachyons src/css/app.css > src/index.css --minify",
     "prestart": "npm run css",
-    "prebuild": "npm run css"
+    "prebuild": "npm run css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "css-loader": "^0.28.4",
