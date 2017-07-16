@@ -5,7 +5,8 @@ import {
 } from 'react-router-dom'
 import createBrowserHistory from 'history/createBrowserHistory'
 import Header from './components/header'
-import Hero from './components/hero'
+import Intro from './components/intro'
+import Schedule from './components/schedule'
 
 class App extends Component {
   render() {
@@ -13,7 +14,8 @@ class App extends Component {
       <Router history={createBrowserHistory()}>
         <div>
           <Header />
-          <Route exact path='/' component={Hero}/>
+          <Route exact path='/' component={Intro}/>
+          <Route exact path='/schedule' component={Schedule}/>
         </div>
       </Router>
     );
