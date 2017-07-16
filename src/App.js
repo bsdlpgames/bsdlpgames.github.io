@@ -4,7 +4,7 @@ import Hero from './components/hero'
 
 class App extends Component {
   render() {
-  return (
+    return (
       <div>
         <Header />
         <Hero />
