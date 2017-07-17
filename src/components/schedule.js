@@ -1,9 +1,8 @@
 import React from 'react'
 import Hero from './hero'
 
-export default () => (
-  <div className='center w-80 ph3-ns pv4'>
-    <h3 className='normal'>Streaming Schedule (All Times PT/PDT)</h3>
+const schedule = () => (
+  <div>
     <table>
       <tr>
         <td className='b ph4'>Monday</td>
@@ -35,4 +34,8 @@ export default () => (
       </tr>
     </table>
   </div>
+)
+
+export default () => (
+  <Hero title='Streaming Schedule (All Times PT/PDT)' content={schedule()} />
 )
