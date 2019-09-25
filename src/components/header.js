@@ -10,7 +10,7 @@ export default () => (
     <NavLink activeClassName='b' className='link f6 f5-ns ttu near-black hover-near-white hover-bg-near-black dib mr3 pa1 br1 ba b--near-black' to='/schedule'>schedule</NavLink>
     <a className='link f6 f5-ns ttu near-black hover-near-white hover-bg-near-black dib mr3 pa1 br1 ba b--near-black' href='https://twitch.tv/bsdlp' title='twitch'>twitch</a>
     <a className='link f6 f5-ns ttu near-black hover-near-white hover-bg-near-black dib mr3 pa1 br1 ba b--near-black' href='https://twitter.com/bsdlp' title='twitter'>twitter</a>
-    <a className='link f6 f5-ns ttu near-black hover-near-white hover-bg-near-black dib mr3 pa1 br1 ba b--near-black' href='https://medium.com/@bsdlp' title='blog'>blog</a>
+    <a className='link f6 f5-ns ttu near-black hover-near-white hover-bg-near-black dib mr3 pa1 br1 ba b--near-black' href='https://instagram.com/bsdlp' title='instagram'>instagram</a>
     <a className='link f6 f5-ns ttu near-black hover-near-white hover-bg-near-black dib mr3 pa1 br1 ba b--near-black' href='https://www.youtube.com/channel/UCQkMNF9ZWl7ehUNEYZuLvOQ' title='youtube'>youtube</a>
   </nav>
 )
